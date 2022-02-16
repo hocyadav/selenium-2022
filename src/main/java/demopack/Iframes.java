@@ -10,6 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Iframes {
 
 	public static void main(String[] args) {
+		
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("https://krninformatix.com/frames/frames.html");

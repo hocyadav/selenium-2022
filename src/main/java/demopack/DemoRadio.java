@@ -7,6 +7,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class DemoRadio {
 
 	public static void main(String[] args) throws InterruptedException {
+		System.setProperty("webdriver.gecko.driver", "C:\\swarn\\git_code\\geckodriver-v0.30.0-win64\\geckodriver.exe");
+
 		WebDriver driver = new FirefoxDriver();
 		//FirefoxDriver driver = new FirefoxDriver();(Interface logic)
 		driver.get("https://krninformatix.com/sample.html");

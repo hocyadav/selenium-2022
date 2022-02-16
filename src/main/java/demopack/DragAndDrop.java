@@ -11,6 +11,8 @@ import org.openqa.selenium.interactions.Actions;
 public class DragAndDrop {
 
 	public static void main(String[] args) {
+		System.setProperty("webdriver.gecko.driver", "C:\\swarn\\git_code\\geckodriver-v0.30.0-win64\\geckodriver.exe");
+
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("http://www.dhtmlgoodies.com/submitted-scripts/i-google-like-drag-drop/index.html");

@@ -20,6 +20,8 @@ public class ExcelLibrary2 {
 	public static void main(String[] args) {
 		
 		try {
+			System.setProperty("webdriver.gecko.driver", "C:\\swarn\\git_code\\geckodriver-v0.30.0-win64\\geckodriver.exe");
+
 			FileInputStream fis = new FileInputStream("C:\\Users\\YADHA02\\Downloads\\data.xlsx");
 			Workbook wb = WorkbookFactory.create(fis);
 			Sheet s = wb.getSheet("Sheet1");
